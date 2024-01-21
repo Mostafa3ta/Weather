@@ -2,6 +2,7 @@
 let today = document.getElementById("today"),
   todayDate = document.getElementById("today-date"),
   cityLocation = document.getElementById("location"),
+  countryLocation = document.getElementById("location-country"),
   todayDegree = document.getElementById("today-degree"),
   todayIcon = document.getElementById("today-icon"),
   description = document.getElementById("today-description"),
@@ -49,6 +50,7 @@ function displayTodayWeather() {
   today.innerHTML = days[date.getDay()];
   todayDate.innerHTML = `${date.getDate()} ${monthName[date.getMonth()]}`;
   cityLocation.innerHTML = responseData.location.name;
+  countryLocation.innerHTML = responseData.location.country;
   todayDegree.innerHTML = responseData.current.temp_c;
   todayIcon.setAttribute("src", `https:${responseData.current.condition.icon}`)
   description.innerHTML = responseData.current.condition.text;
