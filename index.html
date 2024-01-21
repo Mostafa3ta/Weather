@@ -1,0 +1,120 @@
+<html>
+
+<head>
+  <title>Weather App</title>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Mostafa" />
+  <meta name="description" content="weather app" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="html,css,js,ajax,weather" />
+
+  <link rel="icon" href="images/icon.png" />
+  <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+
+
+  <section class="display-temp " id="search">
+    <div class="bg-color py-5 ">
+      <div class="container no-gutters">
+        <div class="search m-auto w-50">
+          <input type="text" id="search-bar" class="w-100 mb-5" placeholder="&#xF002; Search City..."
+            style="font-family:Arial, FontAwesome" />
+        </div>
+        <div class="city-temp row gx-0 d-flex justify-content-center">
+
+          <div class="temp-card  rounded-2 col-lg-3 col-md-5 my-3  col-10  shadow">
+            <div class="day-and-date rounded-top-2  d-flex justify-content-between">
+              <p id="today">Monday</p>
+              <p id="today-date">3 May</p>
+            </div>
+
+            <div class="temp-datails">
+              <p id="location"></p>
+              <div class="d-flex justify-content-between my-4">
+                <div class="pt-3">
+                  <h2 id="today-degree" class="d-inline-block"></h2>
+                  <h2 class="d-inline-block"><sup>o</sup>C</h2>
+                </div>
+                <img id="today-icon" width="90" />
+              </div>
+              <p id="today-description"></p>
+              <div class="details">
+                <i class="fas fa-umbrella pr-1"></i>
+                <span id="humidty"></span> <span>%</span>
+
+                <i class="fas fa-wind pl-3 pr-1"></i>
+                <span id="wind"></span> <span>km/h</span>
+
+                <i class="far fa-compass pl-3 pr-1"></i>
+                <span id="compass"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="temp-card rounded-2 col-lg-3 col-md-5 my-3 col-10  text-center shadow">
+            <div class="day-and-date rounded-top-2 ">
+              <p class="nextDay">Tuesday</p>
+            </div>
+
+            <div class="temp-datails">
+              <div>
+                <img class="nextDay-icon" width="90" />
+              </div>
+              <h2 class="max-degree d-inline-block"></h2>
+              <h2 class="d-inline-block"><sup>o</sup>C</h2>
+              <br>
+              <p class="min-degree d-inline-block"></p>
+              <p class="d-inline-block"><sup>o</sup>C</p>
+              <p class="nextDay-description"></p>
+            </div>
+          </div>
+
+          <div class="temp-card rounded-2 col-lg-3 col-md-5 my-3 col-10  text-center shadow">
+            <div class="day-and-date rounded-top-2">
+              <p class="nextDay">Wednsday</p>
+            </div>
+
+            <div class="temp-datails">
+              <div>
+                <img class="nextDay-icon" width="90" />
+              </div>
+              <h2 class="max-degree d-inline-block"></h2>
+              <h2 class="d-inline-block"><sup>o</sup>C</h2>
+              <br>
+              <p class="min-degree d-inline-block"></p>
+              <p class="d-inline-block"><sup>o</sup>C</p>
+              <p class="nextDay-description"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="fixed-bottom">
+    <div class="container">
+      <div class="social-media text-white text-center mt-2">
+        <i class="fab fs-4 px-1 fa-facebook-f"></i>
+        <i class="fab fs-4 px-1 fa-twitter"></i>
+        <i class="fab fs-4 px-1 fa-pinterest"></i>
+        <i class="fab fs-4 px-1 fa-google-plus"></i>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/jquery-3.5.1.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
