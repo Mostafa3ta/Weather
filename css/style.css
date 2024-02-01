@@ -13,6 +13,12 @@ html {
     scroll-behavior: smooth;
 }
 
+a,
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
 
 .main-color {
     color: #37aec3
@@ -36,18 +42,18 @@ input:focus-visible {
     background-color: rgba(49, 153, 171, 0.575);
 } */
 
-.display-temp {
-
-}
+.display-temp {}
 
 .display-temp #search-bar {
     padding: 5px 15px;
     border: 1px solid #3199ab;
     border-radius: 20px;
 }
+
 .display-temp .temp-card:first-of-type {
     background-color: #3199ab;
 }
+
 /* .display-temp .temp-card:first-of-type h2 {
     font-size: 50px;
     font-weight: 600;
@@ -62,14 +68,16 @@ input:focus-visible {
 .display-temp .temp-card:nth-of-type(3):hover {
     background-color: #3199ab;
 }
+
 .display-temp .temp-card:nth-of-type(2) {
-    margin:0% 4%;
+    margin: 0% 4%;
 }
 
 .display-temp .temp-card:first-of-type .day-and-date {
     background-color: #374850;
     margin: 0;
 }
+
 .display-temp .temp-card .day-and-date {
     background-color: #455a64;
     color: #bfc1c8;
@@ -84,11 +92,13 @@ input:focus-visible {
     font-size: 22px;
     text-shadow: 0 0 1px #fff, 0 0 1px #fff
 }
+
 .display-temp .temp-card .temp-datails {
     padding: 25px;
     color: #fff;
-    
+
 }
+
 .display-temp .temp-card .temp-datails #today-description,
 .display-temp .temp-card .temp-datails .nextDay-description {
     font-size: 14px;
@@ -108,8 +118,6 @@ footer {
 }
 
 footer i {
-    margin-right: 5px;
-    font-size: 16px;
     cursor: pointer;
     transition: all 0.3s;
 }
