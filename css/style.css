@@ -38,10 +38,6 @@ input:focus-visible {
     border: 1px solid #37aec3;
 }
 
-/* .bg-color {
-    background-color: rgba(49, 153, 171, 0.575);
-} */
-
 .display-temp {}
 
 .display-temp #search-bar {
@@ -54,10 +50,6 @@ input:focus-visible {
     background-color: #3199ab;
 }
 
-/* .display-temp .temp-card:first-of-type h2 {
-    font-size: 50px;
-    font-weight: 600;
-} */
 .display-temp .temp-card:nth-of-type(2),
 .display-temp .temp-card:nth-of-type(3) {
     background-color: #83bbc4;
@@ -106,14 +98,9 @@ input:focus-visible {
     text-shadow: 0 0 1px #455a64, 0 0 1px #455a64;
 }
 
-
-
-
-
-
 footer {
     background-color: #374850;
-    padding: 10px 0;
+    padding: 5px 0;
     bottom: 0;
 }
 
