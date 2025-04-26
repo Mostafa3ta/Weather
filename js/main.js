@@ -10,6 +10,7 @@ let today = document.getElementById("today"),
   wind = document.getElementById("wind"),
   compass = document.getElementById("compass"),
   searchBar = document.getElementById("search-bar");
+footer = document.getElementById("footer");
 
 let nextDay = document.getElementsByClassName("nextDay"),
   nextDayIcon = document.getElementsByClassName("nextDay-icon"),
@@ -28,6 +29,16 @@ let nextDay = document.getElementsByClassName("nextDay"),
     "Friday",
     "Saturday",
   ];
+const Links = [
+  { link: "https://github.com/Mostafa3ta", icon: "fab fa-github" },
+  { link: "https://www.linkedin.com/in/mostafa-mahmoud-33a1542b0", icon: "fab fa-linkedin-in" }
+]
+
+const socialItems = Links.map(item =>
+  `<a href="${item.link}" target="_blank" rel='noopener noreferrer'>
+      <i class="${item.icon} fs-4 mx-2"></i>
+  </a>`).join(' ')
+footer.innerHTML = socialItems
 
 
 

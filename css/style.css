@@ -38,8 +38,6 @@ input:focus-visible {
     border: 1px solid #37aec3;
 }
 
-.display-temp {}
-
 .display-temp #search-bar {
     padding: 5px 15px;
     border: 1px solid #3199ab;
@@ -100,7 +98,6 @@ input:focus-visible {
 
 footer {
     background-color: #374850;
-    padding: 5px 0;
     bottom: 0;
 }
 
