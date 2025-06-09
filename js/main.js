@@ -31,6 +31,7 @@ let nextDay = document.getElementsByClassName("nextDay"),
   ];
 const Links = [
   { link: "https://github.com/Mostafa3ta", icon: "fab fa-github" },
+  { link: "https://portfolio2-eosin-six.vercel.app/", icon: "fa-solid fa-link" },
   { link: "https://www.linkedin.com/in/mostafa-mahmoud-33a1542b0", icon: "fab fa-linkedin-in" }
 ]
 
